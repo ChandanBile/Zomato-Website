@@ -1,0 +1,344 @@
+body {
+  margin: none;
+  padding: none;
+}
+
+.Container {
+  width: auto;
+  height: 480px;
+  background-image: url('../public/assets/background.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 17px;
+  color: #FFFFFF;
+}
+
+.batn {
+  background: none;
+  color: white;
+}
+
+.batn-red {
+  background-color: #CE0505;
+  color: white;
+  float: right;
+  ;
+}
+
+.batn-borderless {
+  border: none;
+}
+
+.batn-border {
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+}
+
+.batn-sm {
+  width: 70px;
+  height: 46px;
+
+}
+
+.batn-md {
+  width: 140px;
+  height: 50px;
+}
+
+.batn-lg {
+  width: 181px;
+  height: 46px;
+}
+
+.batn-xl {
+  max-width: 445px;
+  max-height: 53px;
+  width: 300px;
+  height: 41px;
+}
+
+.li {
+  list-style-type: none;
+  background-color: white;
+  color: black;
+  width: 189px;
+  border: 1px solid gray;
+  height: 40px;
+  margin: auto;
+
+
+}
+
+.logoo {
+  width: 90px;
+  height: 90px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #EB2929;
+}
+
+.carding {
+  display: inline-block;
+  max-width: 360px;
+  height: 160px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.carding:hover {
+  cursor: pointer;
+}
+
+.textareas {
+  height: 40px;
+  padding-left: 5px;
+  border: none;
+}
+
+.searchAreas {
+  height: 40px;
+  width: 200px;
+  margin: auto;
+}
+
+.searchData {
+  background-color: white;
+  color: black;
+  margin: 17px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.searchAreas:hover {
+  cursor: pointer;
+}
+
+.imgcard {
+  vertical-align: top;
+  width: 160px;
+  height: 160px;
+}
+
+.textcard {
+  padding: 5px;
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+}
+
+.navBar {
+  color: red;
+  size: unset;
+}
+
+.loginPopup {
+  margin: 5% auto;
+  max-width: 456px;
+  max-height: 405px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.logins {
+  color: blue;
+  border: 1px solid #C7C7C7;
+  display: block;
+}
+
+.xcross {
+  color: rgb(255, 0, 0);
+  margin: 10px;
+  position: relative;
+  left: 0%;
+}
+
+.filterpgNav {
+  background-color: #EB2929;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.filterpgNav:hover {
+  cursor: pointer;
+}
+
+.logooNav {
+  width: 52px;
+  height: 52px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #EB2929;
+  margin-left: 60px;
+}
+
+.filterBox {
+  padding-top: 20px;
+  display: inline-block;
+  width: 260px;
+  height: auto;
+  box-shadow: 0px 3px 6px #00000029;
+
+}
+
+.filterData {
+  border-bottom: gray;
+  float: right;
+  margin: 10px;
+  max-width: 794px;
+  max-height: 291px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.filterData:hover {
+  cursor: pointer;
+}
+
+.textColor {
+  color: #192F60;
+}
+
+.filterImg {
+  max-width: 120px;
+  height: 120px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.resDetails {
+  display: inline-block;
+}
+
+.topCard {
+  border-bottom: red;
+  padding: 5px;
+}
+
+.overviewImg {
+  margin-top: 52px;
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 1130px;
+  height: 352px;
+}
+
+.overview {
+  border-bottom: 2px solid #D2D9E6;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+
+.order {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.order:hover {
+  cursor: pointer;
+}
+
+.orderMenu {
+  display: block;
+  margin: auto;
+  color: #61B246;
+  background-color: white;
+  height: 29px;
+  margin-top: 78px;
+  text-align: center;
+  border: none;
+}
+
+.orderMenu:hover {
+  cursor: pointer;
+}
+
+.changeCount {
+  margin: 5px;
+}
+
+.orderpopup {
+  max-width: 500px;
+  border-radius: 10px;
+  margin: 56px auto;
+  vertical-align: middle;
+  max-height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+.datapopup {
+  max-width: 500px;
+  margin: 56px auto;
+  max-height: 100%;
+}
+
+.inputBox {
+  width: 95%;
+  height: auto;
+  margin-right: 10px;
+}
+
+.PayBox {
+  padding-top: 20px;
+  display: inline-block;
+  width: 40%;
+  height: auto;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.Paycard {
+  float: right;
+  padding: 10px;
+  width: 60%;
+}
+
+.paymenttype {
+  padding: 15px 5px;
+}
+
+form {
+  color: #555;
+  display: flex;
+  padding: 2px;
+  border: 1px solid currentColor;
+  border-radius: 5px;
+}
+
+input[type="search"] {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+  border: 1px solid transparent;
+  border-radius: inherit;
+}
+
+input[type="search"]::placeholder {
+  color: #bbb;
+}
+
+.newTextarea {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding-left: 5px;
+  height: max-content;
+}
+
+.newTextarea-i:hover {
+  cursor: pointer;
+}
